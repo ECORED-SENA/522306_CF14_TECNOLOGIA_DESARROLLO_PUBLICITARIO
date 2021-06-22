@@ -69,22 +69,22 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /*{
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      },*/
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -105,136 +105,70 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Alard, J., y Monford, A. (2017). Plan de comunicación on y off en la práctica. ESIC Editorial.',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Ávila, B., y Llamazares, R. F. (2018). Medición de audiencias. TOM micro. Utilidades en la elaboración de un plan de medios. ESIC Editorial.',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Dos Santos, M. A. (2017). Investigación de mercados. Ediciones Díaz de Santos.',
+    },
+    {
+      referencia: 'Neuromarketing. (2020). Test fisiológicos.',
+      link: 'https://neuromarketing.la/',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Rodríguez, I., Suárez, V. A. y García, M. M. (2008). Dirección publicitaria. Editorial UOC.',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Soria, M., M. (2015). Plan de medios de comunicación e internet. Editorial CEP.',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Turletti, P. (2018). El ROI de marketing y ventas. ESIC Editorial.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Audiencia',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'número de personas expuestas a un medio o a un soporte de comunicación.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Centrales de medios',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'compañías que compran grandes volúmenes de espacio publicitario a los medios de comunicación y luego los venden a las agencias y anunciantes.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Investigación postest',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'investigación que se realiza desde el momento de la emisión a la finalización de la misma, al objeto de cuantificar el nivel de consecución de los objetivos publicitarios.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Investigación pretest',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'investigación realizada con anterioridad a la emisión del anuncio y que pretende evaluar la capacidad que tiene la comunicación para alcanzar los objetivos de la campaña.',
     },
     {
-      termino: 'Moda',
+      termino: 'Pupilometría',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'estudio que se tiene sobre los efectos que se producen en la pupila frente a determinados estímulos visuales.',
     },
     {
-      termino: 'Diseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: 'Target',
+      significado: 'público objetivo de una campaña publicitaria.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Top of Mind',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'primera marca o referencia citada por un consumidor cuando se le pide que indique las marcas que hay en el mercado.',
     },
   ],
-  complementario: [
-    {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-  ],
+  complementario: [],
   creditos: {
     liderEquipo: [
       {
@@ -264,13 +198,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Sandra Carolina Durán López',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Walter Roa Serrano',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -107,25 +107,104 @@
               .py-3.py-md-4(titulo="Electroencefalograma")
                 .row.align-items-center
                   .col-md-6.mb-4.mb-md-0
-                    p 
+                    p <b>Electroencefalograma (EEG):</b> esta tecnología no invasiva permite conocer las áreas con mayor actividad en el cerebro. A través de unos electrodos que se ubican en la cabeza es posible medir las ondas cerebrales y conocer qué zonas del cerebro responden a unos determinados estímulos en tiempo real.
                   .col-md-6
                     img(src='@/assets/curso/t1/i2.png', alt='Electroencefalograma')
               .py-3.py-md-4(titulo="Eye tracking")
                 .row.align-items-center
                   .col-md-6.mb-4.mb-md-0
-                    p 
+                    p <b><em>Eye Tracking:</em></b> es una herramienta más asequible para la mayoría de empresas. Permite medir y monitorizar el movimiento de los ojos; y define:
+                    ul.lista-ul--separador.my-4
+                      li 
+                        i.fas.fa-play.color-morado.me-4.ms-5
+                        | Tiempo que una persona se concentra en un objeto determinado.
+                      li 
+                        i.fas.fa-play.color-morado.me-4.ms-5
+                        | Espacios de interés.
+                      li 
+                        i.fas.fa-play.color-morado.me-4.ms-5
+                        | Jerarquizar los puntos vistos.
+                      li 
+                        i.fas.fa-play.color-morado.me-4.ms-5
+                        | El impacto emocional y cognitivo a partir de la pupilometría.
                   .col-md-6
                     img(src='@/assets/curso/t1/i3.png', alt='Eye tracking')
               .py-3.py-md-4(titulo="Facial reading")
                 .row.align-items-center
                   .col-md-6.mb-4.mb-md-0
-                    p 
+                    p <b><em>Facial reading:</em></b> se basa en el lenguaje no verbal que los seres humanos expresan a través de los gestos, miradas y movimiento de los ojos, cejas y boca a nivel milimétrico. Por esta razón, esta tecnología detecta cambios mínimos en la expresión y hace estimaciones muy precisas de datos como edad, género y estado de ánimo.
                   .col-md-6
                     img(src='@/assets/curso/t1/i4.png', alt='Facial reading')
         li 
           .lista-ol--cuadro__vineta
             span b
-          p
+          p <b>Cualitativos:</b> para el desarrollo de este tipo de test se utilizan métodos cuantitativos de investigación: sesiones de grupo, técnicas proyectivas para conocer los sentimientos de los individuos hacia los anuncios publicitarios, entre otros. Este tipo de test se utilizan en las primeras etapas del proceso creativo.
+        li 
+          .lista-ol--cuadro__vineta
+            span c
+          p <b>Cuantitativos:</b> utilizan por lo general encuestas y entrevistas en profundidad. Este tipo de entrevistas son las que mejor se adaptan a la obtención de los datos que se esperan obtener. Son utilizadas sobre todo en medios masivos convencionales. Hoy en día la analítica web genera datos cuantitativos muy precisos gracias al nivel de medición estadística que generan las diferentes plataformas web.
+    h5 Pretest individual
+    p Se ejecuta cuando la empresa ha realizado un único anuncio publicitario para publicar en los diferentes medios de comunicación, en este caso los esfuerzos de la investigación se enfocan en conocer la comprensión del mensaje y los posibles ajustes que se deben realizar a la pieza para lograr la mayor efectividad posible.
+    h5 Pretest múltiple
+    p.mb-5 Este tipo de test se realiza a una campaña conformada por varios anuncios publicitarios y que serán expuestos en diferentes medios. En este caso las mediciones se llevan a cabo para determinar los anuncios con mayor impacto, comprensión y recordación para determinar cuáles tendrán mayor presencia en los medios y, por ende, la manera como se distribuirá el presupuesto de la campaña en cuanto a la pauta.
+    h3 Postest
+    .col-lg-10.mx-auto
+      .cajon.color-primario.px-5.py-4.mb-4.fpc
+        p.mb-0 El postest es un proceso de investigación que se realiza durante el proceso de ejecución de la campaña publicitaria; este permite medir los efectos que ha tenido o tuvo la campaña y el logro de los objetivos de la misma.
+    h4 Momento de realización de un postest
+    p El postest es un proceso de medición indispensable para determinar si la inversión que se está realizando en publicidad se va a recuperar o se recuperó en algún momento de la campaña, pues muchas campañas tienen efectos inmediatos en el nivel de ventas, el nivel de recordación de una marca o en aspectos más técnicos en cuanto a lo digital, así como el nivel de conversión, las suscripciones a un sitio web, las visitas a una página de aterrizaje o la interacción con una publicación en una red social. Es importante, entonces, definir en qué momentos se van a realizar los test de una campaña, de acuerdo con las necesidades de medición que se tiene. Para tal efecto se pueden encontrar:
+    .row.align-items-center.mb-5
+      .col-lg-4
+        img(src='@/assets/curso/t1/f22.svg', alt='Persona leyendo analíticas')
+      .col-lg-8
+        p <b>De única vez:</b> estos se realizan una sola vez y en un momento específico de la campaña, puede ser al inicio al final, con el fin de realizar un análisis en un periodo en particular y determinar los resultados alcanzados en ese momento. 
+        p <b>Continuos o <em>tracking</em>:</b> se realizan en varios momentos de la campaña para medir los efectos de la misma al inicio o al final y en estadios intermedios. Permite determinar si los resultados se presentan de forma progresiva y en qué medios se ha generado una mejor respuesta; además de conocer el impacto en el mercado objetivo para futuras campañas.
+    h4 Datos para analizar en un postest
+    p.mb-5 Los postest deben tener principalmente un enfoque de medición cuantitativa, pues lo que se busca es determinar si se están cumpliendo los objetivos de acuerdo con los indicadores planteados en cuanto alcance, frecuencia, intensidad, nivel de ventas y respuesta del mercado objetivo. Sin embargo, muchos test tienen también enfoques cualitativos basados con la información que necesite recogerse, de estos hacen parte:
+    .col-lg-10.mx-auto
+      .tarjeta-avatar-b.mb-5
+        img(src='@/assets/curso/t1/f23.svg' alt='Ícono relacionado')
+        .tarjeta.fondo-casi-blanco
+          .p-4
+            p.mb-0 <b>Penetración:</b> en este punto se hace una medición de la recordación que tiene el mensaje y el producto en relación con la campaña. Cuando esta incluye varios anuncios debe hacerse un análisis de cada uno de ellos para determinar el nivel de recordación que estos tienen frente al mercado objetivo. La recordación de un producto o marca es variada dependiendo del tipo de producto y de la interacción del mercado con él. Se pueden definir varios tipos de recordación:
+      ol.lista-ol--cuadro.lista-ol--separador.mb-5
+        li 
+          .lista-ol--cuadro__vineta
+            span a
+          p <b><em>Top of Mind:</em></b> es un tipo de medición que hacen algunas empresas de investigación de mercados, para determinar las marcas que de cada categoría están en la mente de los consumidores y en qué orden estos las recuerdan. Sin embargo, este top de marcas en la mente de los consumidores depende en gran medida de factores externos como el contexto, el perfil de los clientes y la publicidad.
+        li 
+          .lista-ol--cuadro__vineta
+            span b
+          p <b><em>Top of Heart:</em></b> es un nivel superior al Top of Mind, ya que representa el grado de afinidad y cariño que el mercado tiene con una marca en particular. En este punto los consumidores adoptan un producto o una marca como parte de su vida, por el nivel de empatía que hace que se identifique a un nivel muy personal con ella. También pueden interferir factores como la tradición y la nostalgia.
+        li 
+          .lista-ol--cuadro__vineta
+            span c
+          p <b>Grupo evocado:</b> conformado por las marcas específicas de productos que el consumidor considera en primera instancia.
+        li 
+          .lista-ol--cuadro__vineta
+            span d
+          p <b>Grupo inepto:</b> son las marcas que el consumidor elimina de tajo en su proceso de compra.
+        li 
+          .lista-ol--cuadro__vineta
+            span e
+          p <b>Grupo inerte:</b> son marcas que el consumidor ignora por no encontrar en ellas algún beneficio o ventaja en particular.
+      .tarjeta-avatar-b.mb-5
+        img(src='@/assets/curso/t1/f24.svg' alt='Ícono relacionado')
+        .tarjeta.fondo-casi-blanco
+          .p-4
+            p.mb-0 <b>Audiencia alcanzada:</b> los niveles de ventas, leads y otros indicadores de respuesta del mercado objetivo son mediciones que permiten determinar la efectividad de la campaña.
+      .tarjeta-avatar-b.mb-5
+        img(src='@/assets/curso/t1/f25.svg' alt='Ícono relacionado')
+        .tarjeta.fondo-casi-blanco
+          .p-4
+            p.mb-0 <b>Modificación de actitudes e imagen:</b> de acuerdo con los objetivos de comunicación que también incluyen aspectos cualitativos, es necesario medir los cambios en las actitudes del mercado objetivo y los cambios en la imagen que el producto o servicio, basado con la percepción del target.
+      .tarjeta-avatar-b.mb-5
+        img(src='@/assets/curso/t1/f26.svg' alt='Ícono relacionado')
+        .tarjeta.fondo-casi-blanco
+          .p-4
+            p.mb-0 <b>Comportamiento de compra:</b> toda acción de marketing, inclusive las campañas publicitarias, tienen como finalidad el incremento en las ventas o un cambio de actitud frente a ellas, este es un elemento a medir en el postest y representa un alto nivel de importancia para determinar si se está cumpliendo con los indicadores. Sin embargo, se puede dar el caso en que una campaña tiene como finalidad el cambio en el consumo de un producto o las razones para hacerlo; por ejemplo, que un detergente no se use únicamente para lavar la ropa, sino que se utilice como multiusos.
+
+
 
 
   
