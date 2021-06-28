@@ -32,7 +32,7 @@
       .col-lg-3.p-5
         img(src="@/assets/curso/t2/f6.svg", alt="Icono planificación")._131px.mx-auto.mb-5
         p.text-center Realizar inteligencia de negocios.
-    h4 ¿Para qué se puede utilizar el ROI?
+    h4 ¿Qué implica la implementación del ROI?
     .row.align-items-center.mb-5
       .col-lg-5.mx-auto.px-5
         img(src="@/assets/curso/t2/f7.svg", alt="Return on investment")
@@ -73,7 +73,7 @@
             <p>Mercadeo</p>
             </td>
             <td width="154">
-            <p>Posicionamiento.</p>
+            <p>Posicionamiento</p>
             </td>
             <td width="187">
               ul.lista-ul
@@ -87,7 +87,7 @@
                   i.fas.fa-play.color-morado.me-4
                   p Pertenencia al segmento de mercado.
             </td>
-            <tr>
+            <tr style="background-color: #e8e8e8;">
             <td width="154">
             <p>Educación.</p>
             </td>
@@ -104,9 +104,9 @@
                   p Uso correcto o incorrecto.
             </td>
             </tr>
-            <tr>
+            <tr style="background:white;">
             <td width="154">
-            <p>Interacciones externas.</p>
+            <p>Interacciones externas</p>
             </td>
             <td width="187">
               ul.lista-ul.my-4
@@ -121,9 +121,9 @@
                   p Eventos.
             </td>
             </tr>
-            <tr>
+            <tr style="background-color: #e8e8e8;">
             <td width="154">
-            <p>Interacciones en punto de venta.</p>
+            <p>Interacciones en punto de venta</p>
             </td>
             <td width="187">
               ul.lista-ul
@@ -143,7 +143,7 @@
             </tr>
             <tr>
             <td width="154">
-            <p>Interacciones <em>online.</em></p>
+            <p>Interacciones <em>online</em></p>
             </td>
             <td width="187">
               ul.lista-ul
@@ -158,9 +158,9 @@
                   p Dispositivos móviles.
             </td>
             </tr>
-            <tr>
+            <tr style="background-color: #e8e8e8;">
             <td width="154">
-            <p>Interacciones <em>offline.</em></p>
+            <p>Interacciones <em>offline</em></p>
             </td>
             <td width="187">
               ul.lista-ul
@@ -180,13 +180,13 @@
             <p>Comercialización</p>
             </td>
             <td width="154">
-            <p>Costos.</p>
+            <p>Costos</p>
             </td>
             <td width="187">
               ul.lista-ul
                 li 
                   i.fas.fa-play.color-morado.me-4
-                  p Gastos de <em>marketing.</em>
+                  p Gastos de <em>marketing</em>.
                 li 
                   i.fas.fa-play.color-morado.me-4
                   p Pérdidas.
@@ -195,9 +195,9 @@
                   p Devoluciones.
             </td>
             </tr>
-            <tr>
+            <tr style="background-color: #e8e8e8;">
             <td width="154">
-            <p>Ingresos.</p>
+            <p>Ingresos</p>
             </td>
             <td width="187">
               ul.lista-ul
@@ -211,7 +211,7 @@
             </tr>
             <tr>
             <td width="154">
-            <p>Retorno.</p>
+            <p>Retorno</p>
             </td>
             <td width="187">
               ul.lista-ul
@@ -250,35 +250,35 @@
       .tabla-a.color-acento-contenido.mb-5 
         table
           thead
-            tr
+            tr(style="background-color: #e8e8e8;")
               th Tipo de indicador
               th Ejemplo de indicador
-              th Pregunta 1 - evaluación monetaria
-              th Pregunta 2 - evaluación influencia
+              th.text-left Pregunta 1 -<br>evaluación monetaria
+              th.text-left Pregunta 2 -<br>evaluación influencia
           tbody
             tr
-              td Posicionamiento
+              th Posicionamiento
               td Nivel de recordación de marca 
               td ¿Cuántos consumidores mencionan la marca dentro de las primeras 5 de su lista de recordación?
               td ¿Qué nivel de influencia tiene la marca en la decisión de compra?
-            tr
-              td Educación
+            tr(style="background-color: #e8e8e8;")
+              th Educación
               td Reconocimiento del beneficio de marca
               td ¿Cuántas personas reconocen el beneficio principal del producto?
               td ¿Cuánto influye el beneficio en la decisión de compra?
             tr
-              td Interacción
+              th Interacción
               td Prueba de muestra gratis
               td ¿Cuántas personas probaron la muestra gratis del producto?
               td ¿Qué nivel de influencia tuvo la muestra gratis con la decisión de compra?
-            tr
-              td Costos
-              td Costo de muestra gratis + actividades de educación e interacción.
+            tr(style="background-color: #e8e8e8;")
+              th Costos
+              td Costo de muestra gratis + actividades de educación e interacción
               td ¿Cuánto costó la campaña?
               td ¿Cuál fue la inversión total del proyecto?
             tr
-              td Ingresos
-              td Precio de venta.
+              th Ingresos
+              td Precio de venta
               td ¿Cuánto se obtuvo por cada venta?
               td ¿Cuánto es el ingreso total obtenido en el proyecto?
     Separador

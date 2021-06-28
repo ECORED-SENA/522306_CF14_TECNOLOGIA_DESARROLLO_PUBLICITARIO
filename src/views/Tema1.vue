@@ -58,7 +58,6 @@
         img(src='@/assets/curso/t1/f18.svg', alt='icono relacionado')._131px.mx-auto.mb-5
         p.mb-5.text-center Determinar el nivel de impacto que tiene el mensaje sobre el público objetivo.
     .row.align-items-start.mb-5
-      .relleno
       .borde-acento.tarjeta.p-5.mx-auto
         img(src='@/assets/curso/t1/f19.svg', alt='icono relacionado')._131px.mx-auto.mb-5
         p.mb-5.text-center Definir si el mensaje está en contra de la ética y moral de la audiencia.
@@ -68,11 +67,14 @@
       .borde-acento.tarjeta.p-5.mx-auto
         img(src='@/assets/curso/t1/f21.svg', alt='icono relacionado')._131px.mx-auto.mb-5
         p.mb-5.text-center Medir el grado de recordación del mensaje.
-      .relleno
+      .borde-acento.tarjeta.p-5.mx-auto
+        img(src='@/assets/curso/t1/gra-01.svg', alt='icono relacionado')._131px.mx-auto.mb-5
+        p.mb-5.text-center Medir el nivel de evocación del mensaje.
     h3 Momento para la realización del pretest
+    p Es importante recordar que el pretest se hace durante el proceso de elaboración de la campaña publicitaria y, mientras se realiza la campaña, el mensaje debe ser sometido a un minucioso sistema de creación; es por eso que el pretest puede estar presente en diferentes fases:
     .col-lg-10.mx-auto.mb-5
       LineaTiempoD.color-acento-contenido
-        p.px-5(numero="1" titulo="Durante el desarrollo del concepto") aquí los creativos pueden determinar si el direccionamiento que le están dando al mensaje es el adecuado o deben hacer algún ajuste que garantice la eficacia de la campaña. Un pretest de concepto no es garantía de éxito, pero puede contribuir a minimizar riesgos en la toma de decisiones y a tener una visión más cercana con las expectativas del público objetivo. Se realiza en los siguientes casos:
+        p.px-5(numero="1" titulo="Durante el desarrollo del concepto") Aquí los creativos pueden determinar si el direccionamiento que le están dando al mensaje es el adecuado o deben hacer algún ajuste que garantice la eficacia de la campaña. Un pretest de concepto no es garantía de éxito, pero puede contribuir a minimizar riesgos en la toma de decisiones y a tener una visión más cercana con las expectativas del público objetivo. Se realiza en los siguientes casos:
           br
           ul.lista-ul--separador.my-4
             li 

@@ -184,6 +184,32 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Manuel Augusto Arias López',
+        cargo: 'Instructor – Experto temático',
+        centro: 'Centro de Comercio y Servicios - Regional Quindío',
+      },
+      {
+        nombre: 'Andrea Velásquez Torres',
+        cargo: 'Apoyo experto temático',
+        centro: 'Centro de Comercio y Servicios - Regional Quindío',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Perilla Méndez',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julieth Paola Vital López',
+        cargo: 'Correctora de estilo',
+        centro:
+          'Centro para la Industria y la Comunicación Gráfica – Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -216,7 +242,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
