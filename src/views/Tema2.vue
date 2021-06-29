@@ -89,7 +89,7 @@
             </td>
             <tr style="background-color: #e8e8e8;">
             <td width="154">
-            <p>Educación.</p>
+            <p>Educación</p>
             </td>
             <td width="187">
               ul.lista-ul
