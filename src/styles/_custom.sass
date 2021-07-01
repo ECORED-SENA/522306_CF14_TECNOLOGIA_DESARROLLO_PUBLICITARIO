@@ -4,6 +4,7 @@ $purpura-clarito: #CBC6DF56
 $casi-blanco: #f6f6f6
 //gradientes
 $gradiente1: $purpura-medio 0%, $gris-clarito 100%
+$gradiente2: #d3d3d3 0%,$white 100%
 @mixin gradient($direction, $list)
   background: -webkit-linear-gradient($direction, $list)
   background: -moz-linear-gradient($direction, $list)
@@ -15,6 +16,8 @@ $gradiente1: $purpura-medio 0%, $gris-clarito 100%
 
 .g1
   @include gradient(90deg, $gradiente1)
+.g2
+  @include gradient(0deg, $gradiente2 )
 
 .banner-interno__fondo
   background-image: url('../assets/curso/morado-gradiente.svg') !important
