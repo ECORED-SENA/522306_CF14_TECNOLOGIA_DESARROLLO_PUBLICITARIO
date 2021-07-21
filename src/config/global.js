@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '¿Qué se requiere medir la campaña?',
+            titulo: '¿Qué se requiere para medir la campaña?',
             hash: 't_1_1',
           },
           {
